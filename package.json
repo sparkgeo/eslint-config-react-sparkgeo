@@ -4,6 +4,7 @@
   "description": "An ESLint configuration that is less strict than AirBNB, but more strict than standard. ",
   "author": "Sparkgeo <hi@sparkgeo.com>",
   "license": "ISC",
+  "private": false,
   "peerDependencies": {
     "eslint": "^6.7.2"
   }
