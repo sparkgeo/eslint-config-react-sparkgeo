@@ -1,19 +1,19 @@
-{
-  "extends": [
+module.exports = {
+  extends: [
     "eslint:recommended",
     "plugin:react/recommended",
     "airbnb",
     "prettier",
     "prettier/react"
   ],
-  "parser": "babel-eslint",
-  "plugins": ["react"],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+  parser: "babel-eslint",
+  plugins: ["react"],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
     }
   },
-  "rules": {
+  rules: {
     "array-bracket-spacing": ["error", "never"],
     "block-scoped-var": "error",
     "block-spacing": "error",
@@ -21,36 +21,36 @@
       "error",
       "1tbs",
       {
-        "allowSingleLine": true
+        allowSingleLine: true
       }
     ],
-    "camelcase": 1,
+    camelcase: 1,
     "comma-dangle": 0,
     "comma-spacing": [
       "error",
       {
-        "before": false,
-        "after": true
+        before: false,
+        after: true
       }
     ],
     "comma-style": ["error", "last"],
-    "complexity": [
+    complexity: [
       "error",
       {
-        "max": 25
+        max: 25
       }
     ],
     "default-case": "error",
     "dot-notation": "error",
     "eol-last": ["error", "always"],
-    "eqeqeq": ["error", "always"],
+    eqeqeq: ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "func-name-matching": "error",
     "func-style": [
       "error",
       "declaration",
       {
-        "allowArrowFunctions": true
+        allowArrowFunctions: true
       }
     ],
     "import/prefer-default-export": "off",
@@ -58,21 +58,21 @@
     "key-spacing": [
       2,
       {
-        "singleLine": {
-          "beforeColon": false,
-          "afterColon": true
+        singleLine: {
+          beforeColon: false,
+          afterColon: true
         },
-        "multiLine": {
-          "beforeColon": false,
-          "afterColon": true
+        multiLine: {
+          beforeColon: false,
+          afterColon: true
         }
       }
     ],
     "keyword-spacing": [
       "error",
       {
-        "after": true,
-        "before": true
+        after: true,
+        before: true
       }
     ],
     "linebreak-style": ["error", "unix"],
@@ -81,11 +81,11 @@
       "error",
       120,
       {
-        "ignoreComments": true,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
+        ignoreComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true
       }
     ],
     "max-nested-callbacks": ["error", 3],
@@ -96,7 +96,7 @@
     "newline-per-chained-call": [
       "error",
       {
-        "ignoreChainWithDepth": 4
+        ignoreChainWithDepth: 4
       }
     ],
     "no-alert": "error",
@@ -109,7 +109,7 @@
     "no-extend-native": [
       "error",
       {
-        "exceptions": ["Object"]
+        exceptions: ["Object"]
       }
     ],
     "no-extra-bind": "error",
@@ -120,8 +120,8 @@
     "no-multiple-empty-lines": [
       "error",
       {
-        "max": 1,
-        "maxEOF": 1
+        max: 1,
+        maxEOF: 1
       }
     ],
     "no-nested-ternary": "error",
@@ -143,7 +143,7 @@
     "no-unused-vars": [
       "error",
       {
-        "argsIgnorePattern": "^_.*$"
+        argsIgnorePattern: "^_.*$"
       }
     ],
     "no-use-before-define": "error",
@@ -151,7 +151,7 @@
     "no-useless-rename": [
       "error",
       {
-        "ignoreImport": true
+        ignoreImport: true
       }
     ],
     "no-var": "error",
@@ -159,7 +159,7 @@
     "no-warning-comments": [
       1,
       {
-        "terms": ["fixme"]
+        terms: ["fixme"]
       }
     ],
     "no-whitespace-before-property": "error",
@@ -168,34 +168,34 @@
     "prefer-promise-reject-errors": [
       "error",
       {
-        "allowEmptyReject": true
+        allowEmptyReject: true
       }
     ],
     "prefer-spread": "error",
     "prefer-template": "error",
-    "quotes": 0,
+    quotes: 0,
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".js", ".jsx"]
+        extensions: [".js", ".jsx"]
       }
     ],
-    "semi": ["error", "never"],
+    semi: ["error", "never"],
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
     "wrap-iife": ["error", "any"]
   },
-  "env": {
-    "jest": true
+  env: {
+    jest: true
   },
-  "globals": {
-    "window": true,
-    "document": true,
-    "localStorage": true,
-    "FormData": true,
-    "FileReader": true,
-    "Blob": true,
-    "navigator": true,
-    "fetch": true
+  globals: {
+    window: true,
+    document: true,
+    localStorage: true,
+    FormData: true,
+    FileReader: true,
+    Blob: true,
+    navigator: true,
+    fetch: true
   }
-}
+};

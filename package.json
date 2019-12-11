@@ -1,5 +1,6 @@
 {
   "name": "@sparkgeo/eslint-config-react",
+  "main": "eslintrc.js",
   "version": "0.1.1",
   "description": "An ESLint configuration that is less strict than AirBNB, but more strict than standard. ",
   "author": "Sparkgeo <hi@sparkgeo.com>",
