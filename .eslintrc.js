@@ -54,6 +54,7 @@ module.exports = {
       }
     ],
     "import/prefer-default-export": "off",
+    "import/no-cycle": 1,
     "jsx-quotes": ["error", "prefer-single"],
     "key-spacing": [
       2,
@@ -106,6 +107,7 @@ module.exports = {
     "no-continue": "error",
     "no-duplicate-imports": "error",
     "no-eval": "error",
+    "no-else-return": 1,
     "no-extend-native": [
       "error",
       {
@@ -180,6 +182,7 @@ module.exports = {
         extensions: [".js", ".jsx"]
       }
     ],
+    "react/no-unescaped-entities": 1,
     semi: ["error", "never"],
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
