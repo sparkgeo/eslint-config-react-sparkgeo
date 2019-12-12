@@ -186,7 +186,8 @@ module.exports = {
     semi: ["error", "never"],
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
-    "wrap-iife": ["error", "any"]
+    "wrap-iife": ["error", "any"],
+    "no-plusplus": ["error", { allowForLoopAfterthoughts: true }]
   },
   env: {
     jest: true
