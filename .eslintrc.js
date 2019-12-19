@@ -187,7 +187,11 @@ module.exports = {
     "space-in-parens": ["error", "never"],
     "spaced-comment": ["error", "always"],
     "wrap-iife": ["error", "any"],
-    "no-plusplus": ["error", { allowForLoopAfterthoughts: true }]
+    "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
+    "no-unused-expressions": [
+      "error",
+      { allowTernary: true, allowShortCircut: true }
+    ]
   },
   env: {
     jest: true
