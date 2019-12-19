@@ -190,7 +190,7 @@ module.exports = {
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
     "no-unused-expressions": [
       "error",
-      { allowTernary: true, allowShortCircut: true }
+      { allowShortCircuit: true, allowTernary: true }
     ]
   },
   env: {
