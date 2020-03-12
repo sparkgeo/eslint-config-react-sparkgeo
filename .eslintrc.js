@@ -103,7 +103,7 @@ module.exports = {
     "no-alert": "error",
     "no-array-constructor": "error",
     "no-class-assign": "error",
-    "no-console": "error",
+    "no-console": ["error", {"allow": ["warn", "error"]}],
     "no-continue": "error",
     "no-duplicate-imports": "error",
     "no-eval": "error",
