@@ -1,5 +1,11 @@
 ## Eslint Config Sparkgeo React
 
+**Archived**
+
+This repo has been archived for lack of use. 
+
+## Details
+
 A series of linter rules for the Sparkgeo frontend development team. Ideally, it will be a less strict version of eslint-config-airbnb that allows us to live with prettier and other tools.
 
 ## Setup
